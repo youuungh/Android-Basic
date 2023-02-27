@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:background="#DCDCDC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/tabColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp">
+                    <RadioButton
+                        android:id="@+id/rdoRed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="빨강"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="5dp"/>
+                    <RadioButton
+                        android:id="@+id/rdoGreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="초록"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="5dp"/>
+                    <RadioButton
+                        android:id="@+id/rdoBlue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="파랑"
+                        android:textSize="15dp"
+                        android:layout_marginEnd="5dp"/>
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tvColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="색상 탭의 내용"
+                    android:textColor="#000000"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabSize"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnMinus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="작게"/>
+                    <Button
+                        android:id="@+id/btnPlus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="크게"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="크기 탭의 내용"
+                    android:textColor="#000000"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
