@@ -19,3 +19,5 @@ Android Studio Chipmunk | 2021.2.1 Patch 2 | Java
 * [Project6](https://github.com/youuungh/Android_Basic/tree/master/Chap06)
 
 * [Project7](https://github.com/youuungh/Android_Basic/tree/master/Chap07)
+
+* [Project8](https://github.com/youuungh/Android_Basic/tree/master/Chap08)
