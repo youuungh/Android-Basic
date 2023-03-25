@@ -7,4 +7,4 @@
 
 |SQLite 4|SQLite 5|
 |---|---|
-|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/226347066-0806b517-1e5f-4057-8222-85a56b0270cc.png" width="65%" height="65%"></p>|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/226347073-3c908179-396e-4e0f-b9ed-e1162a6e1732.png" width="65%" height="65%"></p>|
+|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/226347066-0806b517-1e5f-4057-8222-85a56b0270cc.png" width="60%" height="60%"></p>|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/226347073-3c908179-396e-4e0f-b9ed-e1162a6e1732.png" width="60%" height="60%"></p>|
