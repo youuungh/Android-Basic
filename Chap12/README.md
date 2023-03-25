@@ -7,4 +7,4 @@
 
 |GridAdapter|Spinner|
 |---|---|
-|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/225875267-5798eea9-0730-4c17-b377-dd3387f944a2.png" width="65%" height="65%"></p>|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/225875285-2e6c4b03-5e55-493d-b875-634dcedf6914.png" width="65%" height="65%"></p>|
+|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/225875267-5798eea9-0730-4c17-b377-dd3387f944a2.png" width="60%" height="60%"></p>|<p align="center"><img src = "https://user-images.githubusercontent.com/97438155/225875285-2e6c4b03-5e55-493d-b875-634dcedf6914.png" width="60%" height="60%"></p>|
